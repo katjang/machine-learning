@@ -97,9 +97,9 @@ GausPredict = clf.predict(X)
 logisticPredict = model.predict(X)
 decisionPredict = decision.predict(X)
 
-print("GaussianNB Test Accuracy rating: " + str(accuracy_score(Y, GausPredict)))
-print("LogisticRegression Test Accuracy rating: " + str(accuracy_score(Y, logisticPredict)))
-print("DecisionTreeClassifier Test Accuracy rating: " + str(accuracy_score(Y, decisionPredict)))
+print("GaussianNB training Accuracy rating: " + str(accuracy_score(Y, GausPredict)))
+print("LogisticRegression training Accuracy rating: " + str(accuracy_score(Y, logisticPredict)))
+print("DecisionTreeClassifier training Accuracy rating: " + str(accuracy_score(Y, decisionPredict)))
 
 # TODO: leer de classificaties, en kijk hoe goed je dat gedaan hebt door je voorspelling te vergelijken
 # TODO: met de werkelijke waarden
